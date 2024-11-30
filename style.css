@@ -1,6 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Finger+Paint&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Sacramento&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Finger+Paint&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Sacramento&family=Water+Brush&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -51,6 +49,10 @@ a {
     font-size: 14px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
+}
+
+a:hover{
+   color: #F47725;
 }
 
 /* Hamburger Menu */
@@ -143,13 +145,14 @@ a {
 .welcom {
     padding: 100px 0px 10px 0px;
     font-size: 45px;
-    font-family: "Montserrat", sans-serif;
+    font-family:  "Montserrat", sans-serif;
 }
 
 .tera-mera {
-    font-family: "Dancing Script", cursive;
-    color: #47C0B5;
-    font-size: 50px;
+    font-family: "Water Brush", cursive;
+    color:#30817a;
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .mera-tera {
@@ -165,35 +168,30 @@ a {
     margin: 20px 0;
 }
 
-/* Button Styling */
-#btn-button118 {
-    --bg-color: #191f36;
-    --snd-bg-color: #262b40;
-    --text-color: #fff;
-    --mian-color: #f47725;
+.btn2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
 }
 
-#btn-button118.btn {
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background: var(--mian-color);
-    box-shadow: 0 0 1rem var(--mian-color);
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    border: none;
-    color: #fff;
-    transition: 0.5s ease;
+.btn{
+    background-color: #F47725;
 }
 
-#btn-button118.btn:hover {
-    box-shadow: none;
+.btn:hover{
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    border-radius: 0px;
+    border-top: 4px solid #F47725;
+    border-bottom: 4px solid #F47725;
+    color: #000000;
+    backdrop-filter: blur(20px);
+    transform: scaleX(1.1);
+    
 }
 
-#btn-button118 span {
-    color: var(--text-color);
-}
-
-.colors {
+#colors {
     background-color: #fff;
     color: #47C0B5;
     border: 1px solid #47C0B5;
@@ -311,9 +309,10 @@ a {
 }
 
 .Service {
-    font-family: "Dancing Script", cursive;
-    color: #47C0B5;
-    font-size: 24px;
+    font-family: "Water Brush", cursive;
+    color:#30817a;
+    font-size: 38px;
+    font-weight: 500;
 }
 
 .para1 {
@@ -509,11 +508,6 @@ iframe {
     gap: 10px;
 }
 
-.cursive {
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
-    color: #47C0B5;
-}
 
 .ustad {
     font-family: "Montserrat", sans-serif;
@@ -625,10 +619,10 @@ iframe {
 }
 
 .cursive {
-    font-family: "Dancing Script", cursive;
+    font-family: "Water Brush", cursive;
     color: #30817a;
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 38px;
+    font-weight: 500;
     text-align: center;
 
 }
